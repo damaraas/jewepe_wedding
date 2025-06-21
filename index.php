@@ -223,6 +223,8 @@ switch (ENVIRONMENT)
  *  Now that we know the path, set the main path constants
  * -------------------------------------------------------------------
  */
+	$_SERVER['SERVER_PORT'] = 8080;
+
 	// The name of THIS file
 	define('SELF', pathinfo(__FILE__, PATHINFO_BASENAME));
 
